@@ -1,0 +1,200 @@
+<mvc:View
+    controllerName="com.swigy.controller.View2"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:layout="sap.ui.layout"
+    xmlns:core="sap.ui.core"
+    xmlns:grid="sap.ui.layout.cssgrid"
+>
+                <Page id="page2" title="{i18n>title}">
+                <customHeader >
+                    <Bar >
+
+                        <contentLeft>
+                        <Image src="images/logo.jfif" height="100%" ></Image>
+                        <MenuButton text="HOME">
+                            <menu>
+                                <Menu >
+                                    <MenuItem text="Jagatsinghpur"></MenuItem>
+                                    <MenuItem text="Cuttack"></MenuItem>
+                                    <MenuItem text="Bhubaneswar"></MenuItem>
+                                    <MenuItem text="Puri"></MenuItem>
+                                    <MenuItem text="Roulkela"></MenuItem>
+                                </Menu>
+                            </menu>
+                        </MenuButton>
+                        </contentLeft>
+
+                        <contentRight>
+                        <Button icon="images/search.png" text="search" id="idBtn"  />
+                        <Button icon="images/offer.png" text="Offers"/>
+                        <Button icon="images/help.png" text="Help"/>
+                        <Button icon="images/user.png" text="User"/>
+                        <Button icon="images/cart.png" text="Cart"/>
+                        </contentRight>
+
+                    </Bar>
+                </customHeader>
+
+                <content>
+                 
+                 <layout:BlockLayout >
+
+                   <layout:BlockLayoutRow  >
+                    
+                   <layout:BlockLayoutCell class="varsha" >
+                   
+                   <Image src="images/food1.jfif" width="100%" class="img" ></Image>
+                   </layout:BlockLayoutCell>
+                   <layout:BlockLayoutCell class="varsha" >
+                   <Image src="images/food2.jfif" width="100%" class="img" ></Image>
+                   </layout:BlockLayoutCell>
+                   <layout:BlockLayoutCell class="varsha" >
+                   <Image src="images/food3.jfif" width="100%" class="img" ></Image>
+                   </layout:BlockLayoutCell>
+                   <layout:BlockLayoutCell class="varsha" >
+                   <Image src="images/food4.jfif" width="100%" class="img" ></Image>
+                   
+                   </layout:BlockLayoutCell>
+                   </layout:BlockLayoutRow>
+                   </layout:BlockLayout>
+                   
+
+                    <layout:BlockLayout class="block" >
+
+                    <layout:BlockLayoutRow >
+
+                     <layout:BlockLayoutCell class="a" >
+                     <Image src="images/masaladosa.jfif" width="100%"/>
+                     <Text text="MASALA DOSE" class="colour"/>
+                     <Text text="south indian home food" class="sapUiTinyMarginTop font"/>
+                     <ObjectListItem type="Active" number="two for 100 " numberState="Success" numberUnit="rs" 
+                        title="4.3/5" >
+                     <markers>
+                     <ObjectMarker type="Flagged" />
+                     <ObjectMarker type="Favorite" />
+                     </markers>
+                     </ObjectListItem>
+                     <ObjectStatus state="Success" text="Available" class="highlight">
+                     </ObjectStatus>
+                     
+                     </layout:BlockLayoutCell>
+
+                     <layout:BlockLayoutCell class="a">
+                     <Image src="images/idli.jfif" width="100%"/>
+                     <Text text="ODISHA IDLY" class="colour"/>
+                     <Text text="north indian home food" class="sapUiTinyMarginTop font"/>
+                     <ObjectListItem type="Active" number="two for 50" numberState="Success" numberUnit="rs" 
+                       title="4.2/5" >
+                     <markers>
+                     <ObjectMarker type="Flagged" />
+                     <ObjectMarker type="Favorite" />
+                     </markers>
+                     </ObjectListItem>
+                     <ObjectStatus state="Success" text="Hurry 10% off" class="highlight"/>
+                     </layout:BlockLayoutCell>
+
+                     <layout:BlockLayoutCell class="a">
+                     <Image src="images/naan.jfif" width="100%"/>
+                     <Text text="BUTTER NAAN" class="colour"/>
+                     <Text text="south indian home food" class="sapUiTinyMarginTop font"/>
+                     <ObjectListItem type="Active" number="80" numberState="Success" numberUnit="rs" 
+                       title="3.9/5" >
+                       <markers>
+                           <ObjectMarker type="Flagged" />
+                        </markers>
+                     </ObjectListItem>
+                     <ObjectStatus state="Error" text="Not Deliverable" class="highlight"/>
+                     </layout:BlockLayoutCell>
+
+                     <layout:BlockLayoutCell class="a" >
+                     <Image src="images/paratha.jfif" width="100%"/>
+                     <Text text="ALU PARATHA" class="colour"/>
+                     <Text text="south indian home food" class="sapUiTinyMarginTop font"/>
+                     <ObjectListItem type="Active" number="one for 200" numberState="Success" numberUnit="rs" 
+                      title="4.8/5"    >
+                     <markers>
+                     <ObjectMarker type="Flagged" />
+                     </markers>
+                     </ObjectListItem> 
+                     <ObjectStatus state="Information"  text="Free Delivery" class="highlight"/>
+                     </layout:BlockLayoutCell> 
+
+                    </layout:BlockLayoutRow>
+
+                    </layout:BlockLayout>                  
+
+
+                    <layout:BlockLayout class="block" >
+
+                    <layout:BlockLayoutRow >
+
+                     <layout:BlockLayoutCell class="a" >
+
+                     <Image src="images/poori.jfif" width="100%"/>
+                     <Text text="POORI" class="colour"/><VBox/>
+                     <Text text="spicy chat" class="sapUiTinyMarginTop font"/>
+                     <ObjectListItem type="Active" number="two for 50 " numberState="Success" numberUnit="rs" 
+                       title="4.1/5" >
+                     <markers>
+                     <ObjectMarker type="Flagged" />
+                     <ObjectMarker type="Favorite" />
+                     </markers>
+                     </ObjectListItem>
+                     <ObjectStatus state="Success" text="Buy 1 get 1" class="highlight">
+                     </ObjectStatus>
+                     </layout:BlockLayoutCell>
+
+                     <layout:BlockLayoutCell class="a">
+                     <Image src="images/rasgola.jfif" width="100%"/>
+                     <Text text="RASGOLA" class="colour"/><VBox/>
+                     <Text text="spicy chat" class="sapUiTinyMarginTop font"/>
+                     <ObjectListItem type="Active" number="one for 30" numberState="Success" numberUnit="rs" 
+                     title="4.2/5" >
+                     <markers>
+                     <ObjectMarker type="Flagged" />
+                     <ObjectMarker type="Favorite" />
+                     </markers>
+                     </ObjectListItem>
+                     <ObjectStatus state="Success" text="Hurry 10% off" class="highlight"/>
+                     </layout:BlockLayoutCell>
+
+                     <layout:BlockLayoutCell class="a">
+                     <Image src="images/vada.jfif" width="100%"/>
+                     <Text text="VADA" class="colour"/><VBox/>
+                     <Text text="allu chat" class="sapUiTinyMarginTop font"/>
+                     <ObjectListItem type="Active" number="40" numberState="Success" numberUnit="rs" 
+                       title="3.9/5" >
+                     <markers>
+                     <ObjectMarker type="Flagged" />
+                     </markers>
+                     </ObjectListItem>
+                     <ObjectStatus state="Error" text="Not Deliverable" class="highlight"/>
+                     </layout:BlockLayoutCell>
+
+                     <layout:BlockLayoutCell class="a" >
+                     <Image src="images/chicken.jfif" width="100%"/>
+                     <Text text="CHILL CHICKEN" class="colour"/><VBox/>
+                     <Text text="crispy chat" class="sapUiTinyMarginTop font"/>
+                     <ObjectListItem type="Active" number="one for 50" numberState="Success" numberUnit="rs" 
+                      title="4.8/5"    >
+                     <markers>
+                     <ObjectMarker type="Flagged" />
+                     </markers>
+                     </ObjectListItem> 
+                     <ObjectStatus state="Information"  text="Free Delivery" class="highlight"/>
+                     </layout:BlockLayoutCell> 
+                    </layout:BlockLayoutRow>
+                    </layout:BlockLayout>
+                       
+
+                       
+
+                       
+                 
+
+              
+                 </content>
+                </Page>
+</mvc:View>

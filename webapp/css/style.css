@@ -1,0 +1,281 @@
+/* Enter your custom styles here */
+.width1{ margin-left: 70px ;}
+.login{ color: black!important;
+           font-family: Arial ;
+           font-weight: bold;
+        font-size: 15px;
+     margin-left: 220px!important;
+    margin-top: 60px!important;}
+     
+           
+.login:hover {color: #FF7E1F!important;
+                text-decoration: solid!important;
+            
+       }
+
+.signup{   background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.signup:hover{background-color: black; 
+  border: none;
+  color: white!important;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none!important;
+  display: inline-block;
+  font-size: 16px;}
+
+      
+           
+
+       .marque{margin-top: 40px!important;
+           }
+
+         .marque::before {
+            content: "Cooking Gone wrong?";
+            animation:  animate infinite 4s;
+            padding-left: 10px;
+            margin-left: 70px;
+             font-size: 35px!important;
+             font-weight: bold;
+             
+            
+        }
+  
+        @keyframes animate {
+  
+            0% {
+                content: "Late night at Office?";
+            }
+  
+            25% {
+                content: "Unexpected guests?";
+            }
+
+             50% {
+                content: "Game night?";
+            }
+               75% {
+                content: "Movie Marathon?";
+            }
+            100% {
+                content: " Hungry?";
+            }
+
+             125% {
+                content: "Late night at Office?";
+            }
+        }
+
+        .paatitext{
+          font-size: 22px;
+           margin-left: 79px ;
+           margin-top: 10px;
+           color: #70878A;
+
+        }
+
+        .inputbox{
+            margin-left: 79px;
+            margin-top: 25px;
+            width: 460px!important;
+            height: 60px!important;
+        
+    
+            
+
+        }
+
+        .findfood{background-color: #FF7E1F;
+  border: none;
+  color: white;
+  margin-top: 24px!important;
+  padding: 19.5px 44px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;}
+
+          .findfood:hover{background-color: #FF7E1F;
+  border: none;
+  color: white!important;
+ 
+  text-align: center;
+  text-decoration: none!important;
+  display: inline-block;
+  font-size: 20px;}
+
+  .city{font-size: 14px;
+    color:grey;
+     margin-left: 79px;
+     margin-top: 25px;
+
+}
+
+.dg{font-size: 14px !important;
+    color:#6B8285 !important;
+     margin-right: 10px;
+    margin-top: 13px;
+ font-weight: bold;}
+
+ .dg:hover{color:#6B8285 !important;
+ text-decoration: none !important;}
+
+ .lg{font-size: 14px !important;
+    color:#86A3A6!important;
+     margin-right: 10px;
+    margin-top: 13px;
+ font-weight: bold;}
+ .lg:hover{color:#86A3A6 !important;
+ text-decoration: none !important;}
+
+ .allcity{margin-left: 79px;}
+
+ .uporer{margin-top: 4px !important;}
+
+ .brownpart{
+     background-color: #241204;
+ }
+
+ .majhe{  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center !important;
+  color: white;
+ }
+
+ .majhe1{font-size:20px ;
+          font-weight: bold ;}
+
+.whitepart{
+    display: block;
+  margin-left: 100px;
+  color:#33303B;
+  font-size: 28px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.wp{
+     margin-top: 140px;
+}
+
+.whitepart1{
+    display: block; 
+  color:grey;
+  margin-left: 100px;
+  font-size: 18px;
+  font-family: Arial;
+  
+}
+
+.wp1{
+     margin-top: 20px;
+}
+
+.whitepart2{
+  margin-left: 100px;   
+}
+
+.footer{background-color: black;}
+.company{
+    margin-left: 100px;
+    color: gray;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Arial;
+    margin-top: 65px;
+}
+
+.footer1{
+    margin-left: 100px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    margin-bottom: 10px;
+    
+}
+
+.footer1:hover{
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.footer2{
+    margin-left: 85px;
+}
+
+.footer2:hover{
+    transform: scale(1.1);
+   
+}
+
+.panel{
+    margin-left: 99px;
+    margin-bottom: 20px;
+}
+
+.footer_logo{
+    margin-left: 100px;
+}
+
+.copyright{
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left:370px ;
+}
+
+.social{
+    margin-right:25px ;
+    margin-top: 10px;
+   width:20px !important;
+}
+
+.social:hover{
+    transform: scale(1.2);
+
+}
+
+.gap{
+    margin-left: 305px;
+}
+
+
+.varsha{
+    background-color: black;
+
+}
+.img:hover{background-color: black;
+    border:5px solid white;
+
+}
+.block{background-color: white;
+
+}
+.a:hover{
+border: 2px solid black;
+}
+
+.colour{color: black;
+      font-size: larger;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+.font{font-style: italic;
+}
+.highlight{background-color:gold;
+           font-size: small;
+           
+           
+
+}

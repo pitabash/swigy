@@ -1,0 +1,25 @@
+<mvc:View
+    controllerName="com.swigy.controller.Login"
+    xmlns:form="sap.ui.layout.form"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:layout="sap.ui.layout"
+    xmlns:core="sap.ui.core"
+    xmlns:grid="sap.ui.layout.cssgrid"
+>
+                <Page id="login" title="Login Page">
+                <content>
+                
+                    <form:SimpleForm editable="true">
+                        <Label text="User Name" id="idLbl1"></Label>
+                        <Input id="idName" ></Input>
+                        <Label text="Password" id="idLbl2"></Label>
+                        <Input id="idPwd" type="Password" ></Input>
+                        <Label text="" id="idLbl3"></Label>
+                        <Button text="Login" type="Accept" id="idBtn1"  press="onLogin "></Button>
+                        <Button text="Reset" type="Reject" id="idBtn2"  press="onReset"></Button>
+                    </form:SimpleForm>
+                 </content>
+                </Page>
+</mvc:View>
